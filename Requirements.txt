@@ -1,0 +1,6 @@
+Learning Management System Requirements
+Students: 
+Students will be able to login check their grades and calculate their GPA
+
+Admin:
+An admin will be able to add or remove a new student
