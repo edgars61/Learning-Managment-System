@@ -1,0 +1,8 @@
+Error:Could not connect to database
+needed to match password on connection string
+
+Login is successful after making change
+
+cannot return student info
+checking for possible fixes
+
