@@ -3,7 +3,7 @@ the “Classical Model” we chose it since it seemed the most straightforward a
 This section is dedicated to the Implementation phase of the Life Cycle Model which is when the project is actually coded and tested.
 What we did was to partition the project into subsystems then assigning them amongst each other. At first as a group we did decide on doing
 the project in Java along with the GUI being written with JavaFX since Java was language that we were all at least a little familiar with.
-However about a week later we switched the language to C along with Visual Basics for the GUI since we felt that this would be more efficient
+However about a week later we switched the language to Visual Basics for both the GUI and the source code since we felt that this would be more efficient
 because we were all familiar with C++ and wouldnt have to go through the trouble of learning more Java
 We know that documentation of any software engineering project is important so we used meaningful variable names and meaningful 
 functions just so that any outside person looking at our code can follow and understand our code we also wrote comments 
