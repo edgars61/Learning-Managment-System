@@ -6,3 +6,7 @@ Login is successful after making change
 cannot return student info
 checking for possible fixes
 
+
+Edit: I think i found the problem...
+had accidentally changed the names of some variables
+can view student data now
