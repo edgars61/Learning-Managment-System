@@ -3,14 +3,13 @@ the “Classical Model” we chose it since it seemed the most straightforward a
 This section is dedicated to the Implementation phase of the Life Cycle Model which is when the project is actually coded and tested.
 What we did was to partition the project into subsystems then assigning them amongst each other. At first as a group we did decide on doing
 the project in Java along with the GUI being written with JavaFX since Java was language that we were all at least a little familiar with.
-However about a week later we switched the language to Visual Basics for both the GUI and the source code since we felt that this
+However about a week later we switched to the languages Visual Basics and C# for the GUI and the source code since we felt that this
 would be more efficient because we were all familiar with C++ and wouldnt have to go through the trouble of learning more Java. We did the coding in the 
 Visual Studio 2015. We know that documentation of any software engineering project is important so we used meaningful variable names
 and meaningful functions just so that any outside person looking at our code can follow and understand our code
 we also wrote comments all throughout our code to improve readability We attempted to keep a high cohesion and low coupling when it came to our modules.
-When it came to the testing part of the Implementation phase we use the test to specifications method which is also is called black-box. 
-In this method we draw up the test cases by using the specifications given to us by the client which in this case is Professor Chang. 
-The specifications or requirements given were that the software system should store  information including student’s name, student’s ID,
+When it came to the testing part of the Implementation phase we use the test to specifications method which is also is called black-box testing. 
+The specifications or requirements given were that the software system should store information including student’s name, student’s ID,
 registered courses in the current semester, each exam’s score in one course, GPA calculation in the current semester and that the 
 system has two types of accessing modes, administrator and user. Student information management system is managed by an administrator. 
 It is the job of the administrator to insert update and monitor the whole process. When a user log in to the system. 
