@@ -238,9 +238,9 @@ Public Class updateForm
 
     Private Sub SemesterComBox_SelectedIndexChanged(sender As Object, e As EventArgs) Handles SemesterComBox.SelectedIndexChanged
         If SemesterComBox.SelectedIndex = 0 Then
-            Semester = "Fall2015"
+            Semester = "Fall2017"
         ElseIf SemesterComBox.SelectedIndex = 1 Then
-            Semester = "Spring2016"
+            Semester = "Spring2017"
         Else
             Semester = "Not Enrolled"
         End If
