@@ -17,3 +17,11 @@ Adding student
 Tried searching for recently added student and system encountered error
 had to stop debugging
 Will try to fix
+
+fix found
+
+If HoursTotal = 0 Then
+                GPA_Final = 0
+            Else
+                GPA_Final = Decimal.Round((Grade_Points_Total / HoursTotal), 2, MidpointRounding.AwayFromZero)
+            End If
