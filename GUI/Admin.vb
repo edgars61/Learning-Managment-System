@@ -172,7 +172,11 @@ Public Class Admin
 
             HoursTotal = Hours(0) + Hours(1) + Hours(2) + Hours(3) + Hours(4)
 
-            GPA_Final = Decimal.Round((Grade_Points_Total / HoursTotal), 2, MidpointRounding.AwayFromZero)
+            If HoursTotal = 0 Then
+                GPA_Final = 0
+            Else
+                GPA_Final = Decimal.Round((Grade_Points_Total / HoursTotal), 2, MidpointRounding.AwayFromZero)
+            End If
 
             GPAlbl.Text = Decimal.Round(GPA_Final, 2, MidpointRounding.AwayFromZero)
             '\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
